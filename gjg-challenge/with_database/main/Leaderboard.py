@@ -16,9 +16,9 @@ all_countries = 'all_countries';
 EPS = 1e-6
 
 sizes = {
-    'small': 200,
-    'mid': 500,
-    'large': 700
+    'small': 1000,
+    'mid': 3000,
+    'large': 10000
     };
 
 @app.route('/leaderboard', methods=['GET'])
